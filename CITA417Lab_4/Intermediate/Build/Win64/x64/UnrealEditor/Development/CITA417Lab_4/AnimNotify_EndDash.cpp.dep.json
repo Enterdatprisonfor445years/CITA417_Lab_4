@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_platforming\\animation\\animnotify_enddash.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\cita417lab_4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cita417lab_4\\definitions.cita417lab_4.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_platforming\\animation\\animnotify_enddash.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\animnotify_enddash.generated.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_platforming\\platformingcharacter.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\net\\iris\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\interfaces\\movementbaseinterface.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementbaseinterface.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\platformingcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

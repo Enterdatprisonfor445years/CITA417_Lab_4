@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_combat\\gameplay\\combatdummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\cita417lab_4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cita417lab_4\\definitions.cita417lab_4.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_combat\\gameplay\\combatdummy.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_combat\\interfaces\\combatdamageable.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\combatdamageable.generated.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\combatdummy.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicsconstraintcomponent.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physics\\experimental\\physscene_chaos.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\experimental\\chaos\\public\\eventsdata.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\experimental\\chaos\\public\\chaos\\externalcollisiondata.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physics\\physscene.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physics\\experimental\\chaoseventtype.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\chaoseventtype.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physics\\physicsinterfaceutils.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physxpublic.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\core\\public\\containers\\union.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physicsreplicationinterface.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physics\\networkphysicssettingscomponent.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\networkphysicssettingscomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\public\\physicsreplicationlodinterface.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\physicscore\\public\\chaos\\chaosscene.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\experimental\\chaos\\public\\chaos\\contactmodification.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicsconstraintcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

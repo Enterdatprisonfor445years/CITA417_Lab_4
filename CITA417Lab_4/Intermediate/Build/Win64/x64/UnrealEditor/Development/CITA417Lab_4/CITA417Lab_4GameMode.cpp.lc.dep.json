@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\cita417lab_4gamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\cita417lab_4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cita417lab_4\\definitions.cita417lab_4.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\cita417lab_4gamemode.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\cita417lab_4gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

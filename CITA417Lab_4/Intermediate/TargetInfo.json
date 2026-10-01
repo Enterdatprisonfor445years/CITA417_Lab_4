@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CITA417Lab_4",
+			"Path": "..\\Source\\CITA417Lab_4.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CITA417Lab_4Editor",
+			"Path": "..\\Source\\CITA417Lab_4Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

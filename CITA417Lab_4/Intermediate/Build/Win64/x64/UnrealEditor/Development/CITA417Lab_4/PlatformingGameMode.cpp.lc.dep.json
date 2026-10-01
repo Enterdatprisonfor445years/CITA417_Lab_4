@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_platforming\\platforminggamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\cita417lab_4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cita417lab_4\\definitions.cita417lab_4.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\source\\cita417lab_4\\variant_platforming\\platforminggamemode.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\cita417_repos_ulysse\\cita417_lab_4\\cita417lab_4\\intermediate\\build\\win64\\unrealeditor\\inc\\cita417lab_4\\uht\\platforminggamemode.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\coreuobject\\uht\\propertyaccessutil.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstart.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\engine\\navigationobjectbase.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navigationobjectbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstart.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

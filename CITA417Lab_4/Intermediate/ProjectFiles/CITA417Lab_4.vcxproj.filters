@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Automation_CITA417Lab_4.slnx" />
+    <None Include="..\..\CITA417Lab_4.slnx" />
+    <None Include="..\..\CITA417Lab_4.uproject" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CITA417Lab_4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CITA417Lab_4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\CITA417Lab_4">
+      <UniqueIdentifier>{3B612280-C60B-387D-A9CA-2D08279FABFE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CITA417Lab_4\CITA417Lab_4.Build.cs">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\CITA417Lab_4.cpp">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\CITA417Lab_4.h">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\CITA417Lab_4Character.cpp">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\CITA417Lab_4Character.h">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\CITA417Lab_4GameMode.cpp">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\CITA417Lab_4GameMode.h">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\CITA417Lab_4PlayerController.cpp">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\CITA417Lab_4PlayerController.h">
+      <Filter>Source\CITA417Lab_4</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Private">
+      <UniqueIdentifier>{0F5346C7-33A3-384F-A9A9-03C4BA8C5037}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Private\MovingObstacle.cpp">
+      <Filter>Source\CITA417Lab_4\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CITA417Lab_4\Public">
+      <UniqueIdentifier>{A1BBCCEA-2800-36E6-A7C5-E5585901E2F9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Public\MovingObstacle.h">
+      <Filter>Source\CITA417Lab_4\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat">
+      <UniqueIdentifier>{FED840A4-D0DF-3F8D-A04B-498E76C45ABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat\AI">
+      <UniqueIdentifier>{9FE0EE74-2645-31A5-980F-DDC9314A4845}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat\Animation">
+      <UniqueIdentifier>{3B41D9AA-1364-36CE-9B70-AB60EB9276CF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{C2591448-1CDC-3C37-87BF-5B333E357F1B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{AF9B9F5F-C0E8-32C1-8DBA-CE7BC36DC4FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Combat\UI">
+      <UniqueIdentifier>{A4601B7D-C427-3640-8060-CC1B8388D74D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\CITA417Lab_4\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_Platforming">
+      <UniqueIdentifier>{DBB31931-09A4-3C71-AC15-292C850C1923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CITA417Lab_4\Variant_Platforming\Animation">
+      <UniqueIdentifier>{6D189B6E-8114-3D1D-A2DC-6B15719A9BF9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\CITA417Lab_4\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_SideScrolling">
+      <UniqueIdentifier>{C6FEC8EC-B6E7-366F-BF5B-C9D8E2A8CC3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CITA417Lab_4\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{24B0889F-3F77-37FB-8E83-1F9BDB46FFB6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{26F182E8-C311-3A81-9DBF-BE79A2E557EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{D52BB792-1692-3AC8-AC3B-1AA0173F6D1C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\CITA417Lab_4\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{8FEA140F-AE7D-30A0-9A3B-8FE739D98B52}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\CITA417Lab_4\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
