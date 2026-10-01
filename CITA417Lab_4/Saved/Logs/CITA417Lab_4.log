@@ -2040,3 +2040,6 @@ LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dum
 [2026.10.01-02.04.12:536][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1044.738647
 [2026.10.01-02.04.13:540][953]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.10.01-02.04.13:540][953]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1045.406372, Update Interval: 328.276001
+[2026.10.01-02.09.50:910][965]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1383.109375
+[2026.10.01-02.09.51:911][968]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.01-02.09.51:912][968]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1383.777344, Update Interval: 322.026428
