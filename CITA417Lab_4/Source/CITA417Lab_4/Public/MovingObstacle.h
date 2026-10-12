@@ -41,6 +41,14 @@ private:
 
     FVector StartLocation;
 
+    float DistanceMoved = 1.0f;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+    float PauseDuration = 1.0f;
+
+    bool bIsPaused = false;
+    float PauseTimer = 0.0f;
+    bool bMovingForward = true;
 
     void HandleMovement(float DeltaTime);
     void HandleRotation(float DeltaTime);

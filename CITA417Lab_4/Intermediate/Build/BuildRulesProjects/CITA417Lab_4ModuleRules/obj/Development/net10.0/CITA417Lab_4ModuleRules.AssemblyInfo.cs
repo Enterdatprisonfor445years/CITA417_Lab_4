@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CITA417Lab_4ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f64312ee89f3ef16614b4d491c3849718874ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b5666cff659bde2914b5c8bd357b2f8f899b6de")]
 [assembly: System.Reflection.AssemblyProductAttribute("CITA417Lab_4ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CITA417Lab_4ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

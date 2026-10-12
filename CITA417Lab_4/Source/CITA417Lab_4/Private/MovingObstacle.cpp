@@ -48,23 +48,46 @@ void AMovingObstacle::Tick(float DeltaTime)
 
 void AMovingObstacle::HandleMovement(float DeltaTime)
 {
-    if (MaxDistance <= 0.0f)
-    {
-        return;
-    }
+	if (MaxDistance <= 0.0f)
+	{
+		return;
+	}
 
-    FVector CurrentLocation = GetActorLocation();
-    CurrentLocation += MoveVelocity * DeltaTime;
-    SetActorLocation(CurrentLocation);
+	// 2. Handle the 1-second pause delay timer
+	if (bIsPaused)
+	{
+		PauseTimer += DeltaTime;
+		if (PauseTimer >= PauseDuration)
+		{
+			bIsPaused = false;
+			PauseTimer = 0.0f;
+		}
+		return; // Stay completely still while paused
+	}
 
-    float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
+	// 3. Move the obstacle normally using your original calculation
+	FVector CurrentLocation = GetActorLocation();
+	CurrentLocation += MoveVelocity * DeltaTime;
+	SetActorLocation(CurrentLocation);
 
-    if (DistanceMoved >= MaxDistance)
-    {
-        MoveVelocity = -MoveVelocity;
+	// 4. Update your distance logic to use frame tracking instead of absolute distance
+	// Track the distance traveled in this single frame
+	float FrameDistance = (MoveVelocity * DeltaTime).Size();
 
-        StartLocation = StartLocation + (MoveVelocity.GetSafeNormal() * MaxDistance);
-    }
+	// Add it to a running distance tracker (make sure to declare float DistanceMoved = 0.0f; in your header)
+	DistanceMoved += FrameDistance;
+
+	if (DistanceMoved >= MaxDistance)
+	{
+		// Smoothly invert your velocity vector direction exactly like your original code
+		MoveVelocity = -MoveVelocity;
+
+		// Reset the tracker back to zero for the return journey
+		DistanceMoved = 0.0f;
+
+		// Trigger the 1-second pause block right at the turnaround point
+		bIsPaused = true;
+	}
 }
 
 void AMovingObstacle::HandleRotation(float DeltaTime)

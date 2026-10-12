@@ -22,13 +22,13 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			SingletonFuncArray,
 			UE_ARRAY_COUNT(SingletonFuncArray),
 			PKG_CompiledIn | 0x00000000,
-			0x640A9331,
-			0xA3CF095A,
+			0x1B74539F,
+			0x16DF1EC6,
 			METADATA_PARAMS(0, nullptr)
 		};
 		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_CITA417Lab_4.OuterSingleton, PackageParams);
 	}
 	return Z_Registration_Info_UPackage__Script_CITA417Lab_4.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CITA417Lab_4(Z_Construct_UPackage__Script_CITA417Lab_4, TEXT("/Script/CITA417Lab_4"), Z_Registration_Info_UPackage__Script_CITA417Lab_4, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x640A9331, 0xA3CF095A));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CITA417Lab_4(Z_Construct_UPackage__Script_CITA417Lab_4, TEXT("/Script/CITA417Lab_4"), Z_Registration_Info_UPackage__Script_CITA417Lab_4, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1B74539F, 0x16DF1EC6));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

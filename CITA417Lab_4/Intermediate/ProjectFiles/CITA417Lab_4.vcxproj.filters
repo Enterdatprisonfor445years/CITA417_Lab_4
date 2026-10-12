@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <None Include="..\..\.gitattributes" />
     <None Include="..\..\.vsconfig" />
     <None Include="..\..\Automation_CITA417Lab_4.slnx" />
     <None Include="..\..\CITA417Lab_4.slnx" />
@@ -68,10 +69,16 @@
     <ClCompile Include="..\..\Source\CITA417Lab_4\Private\MovingObstacle.cpp">
       <Filter>Source\CITA417Lab_4\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CITA417Lab_4\Private\ObstacleCourseGameMode.cpp">
+      <Filter>Source\CITA417Lab_4\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\CITA417Lab_4\Public">
       <UniqueIdentifier>{A1BBCCEA-2800-36E6-A7C5-E5585901E2F9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\CITA417Lab_4\Public\MovingObstacle.h">
+      <Filter>Source\CITA417Lab_4\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CITA417Lab_4\Public\ObstacleCourseGameMode.h">
       <Filter>Source\CITA417Lab_4\Public</Filter>
     </ClInclude>
     <Filter Include="Source\CITA417Lab_4\Variant_Combat">
